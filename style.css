@@ -53,12 +53,14 @@ nav ul li a{
 h1{
     color: #fff;
     font-size: 100px;
+    font-family: 'Libre Baskerville', serif;
 
 }
 p{
     color: cornsilk;
     font-size: 15px;
     line-height: 15px;
+    font-family: 'Libre Baskerville', serif;
 }
 button{
     width: 180px;
@@ -81,7 +83,7 @@ button a{
     height: 230px;
     display: inline-block;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 10px 25px;
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
@@ -89,19 +91,30 @@ button a{
     background-size: cover;
     transition: transform 0.5s;
 }
+.card h5{
+    padding-top: 160px;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+.card p{
+    color: #000;
+    font-family: 'Libre Baskerville', serif;
+}
 .card1{
     background-image: url(baby.jpg);
+    font-family: 'Libre Baskerville', serif;
 }
 .card1 h5 a{
-    color: #fff;
+    color: black;
     background-color: transparent;
     text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
 }
 .card2{
     background-image: url(adults.jpg);
 }
 .card2 h5{
-    color: #fff;
+    color: black;
 }
 .card3{
     background-image: url(male.jpg);
